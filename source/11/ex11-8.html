@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, inital-scale=1.0">
+<style>
+.flexbox {
+	display: flex;
+	height: 80px;
+	border: solid 1px red;	
+}
+#container1 {  justify-content: flex-start;  }
+#container2 {  justify-content: flex-end;  }
+#container3 {  justify-content: center;  }
+#container4 {  justify-content: space-between;  }
+#container5 {  justify-content: space-around;  }
+.item1:first-child {
+	width: 20%;
+	height: 60px;
+	background-color: red;
+}
+.item2:nth-child(2) {
+	width: 20%;
+	height: 60px;
+	background-color: green;
+}
+.item3:nth-child(3) {
+	width: 20%;
+	height: 60px;
+	background-color: blue;
+}
+</style>
+</head>
+<body>
+	<div class="flexbox" id="container1">
+  		<div class="item1"></div> 
+  		<div class="item2"></div> 
+  		<div class="item3"></div>
+	</div>
+	<div class="flexbox" id="container2">
+  		<div class="item1"></div> 
+  		<div class="item2"></div> 
+  		<div class="item3"></div>
+	</div>
+	<div class="flexbox" id="container3">
+  		<div class="item1"></div> 
+  		<div class="item2"></div>
+  		<div class="item3"></div>
+	</div>
+	<div class="flexbox" id="container4">
+  		<div class="item1"></div> 
+  		<div class="item2"></div> 
+  		<div class="item3"></div>
+	</div>
+	<div class="flexbox" id="container5">
+  		<div class="item1"></div> 
+  		<div class="item2"></div> 
+  		<div class="item3"></div>
+	</div>		
+</body>
+</html>

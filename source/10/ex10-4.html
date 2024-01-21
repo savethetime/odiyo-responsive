@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+* { 
+	margin: 0;
+	padding: 0; 
+	box-sizing: border-box;
+	text-align: center;
+}
+#wrap {
+	width: 90%;
+	height: 250px;
+	margin: 0 auto;
+	border: solid 1px red;
+}
+#a {
+	width: 300px;
+	height: 150px;
+	float: left;
+	background-color: yellow;	
+}
+#b {
+	width: calc(100% - 300px);
+	height: 150px;
+	float: left;
+	background-color: green;
+}
+</style>
+</head>
+<body>
+	<div id="wrap">
+		<div id="a">요소 A</div>
+		<div id="b">요소 B</div>
+	</div>
+</body>
+</html>
